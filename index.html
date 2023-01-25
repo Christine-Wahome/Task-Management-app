@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css"/>
+  <script src="./index.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+    <div class="container">
+  <h1>My Todo</h1>
+  <div class="container__1">
+    <form id="newTaskForm">
+      <label for="title"></label>
+      <input type="text" id="title" name="title" placeholder="Add Title..."><br>
+      <label for="description"></label>
+      <textarea id="description" name="description" placeholder="Add Description..."></textarea><br>
+      <label for="date"></label>
+      <!-- <input type="date" id="date" name="date"><br> -->
+      <input type="datetime-local"  placeholder="Add DueDate..."id="date">
+     <p> <button type="submit" class="submitbtn">Add </button></p>
+    </form>
+  </div>
+  
+  <br>
+  <h2 class="uncomplete">Uncompleted Tasks</h2>
+  <table id="uncompletedTasks">
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Expected Completion Date</th>
+      <th>Actions</th>
+    </tr>
+  </table>
+  <br>
+  <h2 class="complete">Completed Tasks</h2>
+  <table id="completedTasks">
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Expected Completion Date</th>
+      <th>Actions</th>
+    </tr>
+  </table>
+  <br>
+  <h2 class="late">Late Tasks</h2>
+  <table id="lateTasks">
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Expected Completion Date</th>
+      <th>Actions</th>
+    </tr>
+  </table>
+  <br>
+  <h2 class="onTime">On-Time Tasks</h2>
+  <table id="onTimeTasks" class="onto">
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Expected Completion Date</th>
+      <th>Actions</th>
+    </tr>
+  </table>
+  <br>
+  <p id="message"></p>
+</body>
+</html>
+</div>

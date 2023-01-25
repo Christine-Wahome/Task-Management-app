@@ -1,0 +1,149 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* CSS for styling the task table */
+body{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/backg.jpg');
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+.submitbtn{
+   border-radius: 50%;
+}
+h1{
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+.container{
+  /* background-color: white; */
+  /* background: linear-gradient(rgba(#000, 0.6), rgba(#000, 0.6)), url('/assets/black-and-white-aesthetic-laptop-wallpapers-wallpaper-preview.jpg')!important;
+  background-size: auto;
+  background-position: center; */
+  width:70vw;
+  margin:30px auto;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  /* font-family: sans-serif; */
+  border-radius:10px;
+  box-shadow: 0px 0px 4px 4px gray;
+  border: none;
+}
+.container__1{
+  width:80%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: none;
+  
+}
+#newTaskForm{
+  background-color: transparent;
+  border: none;
+}
+
+input, textarea{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+::placeholder{
+  color: white;
+}
+form{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 90%;
+  text-align: center;
+  color:white;
+  background-color: black;
+  padding: 20px;
+  z-index: 1000;
+  font-size: 18px;
+  font-weight: 700;
+}
+form > input{
+  width:100%;
+  height: 20px;
+  margin: auto;
+  text-align: start;
+ 
+}
+form > p {
+  text-align: center;
+}
+form > p >  button{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+  
+}
+
+th {
+  background-color: #dddddd;
+}
+.uncomplete {
+  color: blue;
+  font-weight: 100;
+}
+table > tr > td{
+  color: white !important;
+}
+
+.complete{
+  color: greenyellow;
+  font-weight: 100;
+
+}
+.late{
+  color: red;
+  font-weight: 100;
+
+}
+.onTime{
+  color: goldenrod;
+  font-weight: 100;
+
+}
+.task-title{
+  color: aliceblue;
+}
+
+.onto{
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+ th{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+/* #todo .p{}
+#todo p{}
+*/
